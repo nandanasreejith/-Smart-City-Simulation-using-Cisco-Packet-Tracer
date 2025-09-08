@@ -1,0 +1,67 @@
+#  Applied Industrial Internet of Things  
+## 🚦 Smart City Simulation using Cisco Packet Tracer
+
+This project demonstrates a **Smart City IoT simulation** using Cisco Packet Tracer.  
+It integrates **smart surveillance**, **intelligent street lighting**, and **fire monitoring** to create a safer and more efficient urban environment.
+
+---
+
+##  Aim
+To design and simulate an intelligent urban environment that uses IoT devices for **surveillance, automated street lighting, and fire detection**, providing real-time monitoring and automated responses.
+
+---
+
+## Problem Statement
+Modern cities face challenges like security threats, energy wastage, and slow response to fire incidents.  
+Manual monitoring of these events is inefficient and error-prone.  
+This project builds a **smart city simulation** that automates these processes to enhance safety, reduce energy consumption, and enable quick response during emergencies.
+
+---
+
+##  Scope of the Solution
+- **Smart Surveillance:** Motion-based monitoring using IoT cameras to detect intrusions.
+- **Intelligent Street Lighting:** Streetlights that automatically turn ON when it is dark or motion is detected, saving energy.
+- **Fire Monitoring:** Fire sensor system that detects smoke/fire and triggers alarms + sends alerts.
+- **Automation:** All systems are fully automated using IoT rules.
+- **Scalability:** Can be expanded to cover larger city infrastructure.
+
+---
+
+## 🛠️ Required Components
+
+### Software
+- Cisco Packet Tracer (v8.x or higher)
+
+### Hardware (Virtual in Simulation)
+- **IoT Devices:**  
+  - CCTV Camera (for surveillance)  
+  - Motion Detector (PIR)  
+  - Smart Street Lights  
+  - Fire Sensors (Smoke/Heat)  
+  - Alarm/Buzzer (Fire Alert)  
+- **Home/City Gateway:** IoT Controller  
+- **End Devices:** PC/Tablet/Smartphone for monitoring  
+- **Router / Wireless Gateway:** To connect IoT devices
+
+---
+
+## 🔗 Simulated Circuit (Cisco Packet Tracer)
+The simulation is modeled as:  
+
+- **Motion Detector → Gateway → CCTV Camera ON** (for surveillance)  
+- **Light Sensor → Gateway → Street Lights ON/OFF** (for energy saving)  
+- **Fire Sensor → Gateway → Alarm ON + Notification to User**
+
+You can use **IoT Rules** in the Home/City Gateway to define conditions and actions.
+
+---
+
+##  Project Screenshots
+(Add screenshots of your city layout and IoT rules here)
+
+```markdown
+### Example Layout
+![City Topology](screenshots/city_topology.png)
+
+### IoT Rules Example
+![IoT Rules](screenshots/iot_rules.png)
